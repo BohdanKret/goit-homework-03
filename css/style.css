@@ -58,6 +58,10 @@ button {
 }
 
 /* ----------------HEADER---------------------*/
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -109,7 +113,7 @@ button {
     font-style: normal;
 }
 
-.header_address ul {
+.header_address-list {
     display: flex;
     gap: 40px;
 }
@@ -137,10 +141,7 @@ button {
 
 .hero {
     background-color: #2E2F42;
-}
-
-.hero-container {
-    padding: 188px 331px;
+    padding: 188px 0;
 }
 
 .hero_title {
@@ -156,6 +157,7 @@ button {
 
 .hero_btn {
     display: block;
+    min-width: 169px;
     padding: 16px 32px;
     margin: 0 auto;
     border-radius: 4px;
@@ -166,12 +168,12 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .hero_btn:hover,
 .hero_btn:focus {
     background: #404BBF;
-    cursor: pointer;
 }
 
 /* -------------------------------------*/
@@ -231,7 +233,7 @@ button {
 
 .team_list {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .team_list_items {
